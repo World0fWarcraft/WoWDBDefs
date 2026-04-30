@@ -12,15 +12,6 @@ int RegionGroupMask? // 1 << (Cfg_Regions::RegionGroupMask - 1)
 int<ItemAppearance::ID> ReqItemAppearanceID?
 int Field_1_15_8_63829_000? // DBAnalyser: [RaceMask, 1%], [OverrideArchive, 1%]
 int RaceMasks?
-locstring Field_12_0_7_67227_000_lang?
-int Field_12_0_7_67227_001?
-int Field_12_0_7_67227_002?
-int Field_12_0_7_67227_003?
-int Field_12_0_7_67227_004?
-int Field_12_0_7_67227_005?
-int Field_12_0_7_67227_006?
-int Field_12_0_7_67227_007?
-int Field_12_0_7_67227_008?
 
 LAYOUT 90325B6E
 BUILD 1.15.8.63829, 1.15.8.64057, 1.15.8.64130, 1.15.8.64272
@@ -327,12 +318,12 @@ RaceMasks<32>[2]
 LAYOUT CA154412
 BUILD 12.0.7.67227
 $noninline,id$ID<32>
-Field_12_0_7_67227_000_lang
-Field_12_0_7_67227_001<32>
-Field_12_0_7_67227_002<32>
-Field_12_0_7_67227_003<32>
-Field_12_0_7_67227_004<32>
-Field_12_0_7_67227_005<32>
-Field_12_0_7_67227_006<32>
-Field_12_0_7_67227_007<32>
-Field_12_0_7_67227_008<32>[2]
+ReqSource_lang
+ReqType<32>
+ClassMask<32>
+RegionGroupMask<32>
+ReqAchievementID<32>
+ReqQuestID<32>
+OverrideArchive<32>
+ReqItemModifiedAppearanceID<32>
+RaceMasks<32>[2]

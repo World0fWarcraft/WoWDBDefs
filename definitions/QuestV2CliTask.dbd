@@ -36,30 +36,6 @@ int Field_1_15_4_56400_024?
 int FiltRaceMasks?
 int Field_5_5_4_67090_021?
 int Field_5_5_4_67090_022?
-locstring Field_12_0_7_67227_000_lang?
-locstring Field_12_0_7_67227_001_lang?
-int Field_12_0_7_67227_002?
-int Field_12_0_7_67227_003?
-int Field_12_0_7_67227_004?
-int Field_12_0_7_67227_005?
-int Field_12_0_7_67227_006?
-int Field_12_0_7_67227_007?
-int Field_12_0_7_67227_008?
-int Field_12_0_7_67227_009?
-int Field_12_0_7_67227_010?
-int Field_12_0_7_67227_011?
-int Field_12_0_7_67227_012?
-int Field_12_0_7_67227_013?
-int Field_12_0_7_67227_014?
-int Field_12_0_7_67227_015?
-int Field_12_0_7_67227_016?
-int Field_12_0_7_67227_017?
-int Field_12_0_7_67227_018?
-int Field_12_0_7_67227_019?
-int Field_12_0_7_67227_020?
-int Field_12_0_7_67227_021?
-int Field_12_0_7_67227_022?
-int Field_12_0_7_67227_023?
 
 LAYOUT AD7B0B93
 BUILD 1.15.3.55112, 1.15.3.55244, 1.15.3.55348, 1.15.3.55391, 1.15.3.55515, 1.15.3.55563, 1.15.3.55646, 1.15.3.55917, 1.15.3.56488, 1.15.3.56626
@@ -772,27 +748,27 @@ FiltRaceMasks<32>[2]
 LAYOUT D6D31C39
 BUILD 12.0.7.67227
 $noninline,id$ID<32>
-Field_12_0_7_67227_000_lang
-Field_12_0_7_67227_001_lang
-Field_12_0_7_67227_002<32>
-Field_12_0_7_67227_003<u32>
-Field_12_0_7_67227_004<u32>
-Field_12_0_7_67227_005<16>
-Field_12_0_7_67227_006<u32>
-Field_12_0_7_67227_007<u32>
-Field_12_0_7_67227_008<u32>
-Field_12_0_7_67227_009<u32>
-Field_12_0_7_67227_010<u32>
-Field_12_0_7_67227_011<u32>
-Field_12_0_7_67227_012<u32>
-Field_12_0_7_67227_013<u32>
-Field_12_0_7_67227_014<u32>
-Field_12_0_7_67227_015<32>
-Field_12_0_7_67227_016<32>
-Field_12_0_7_67227_017<u32>
-Field_12_0_7_67227_018<32>
-Field_12_0_7_67227_019<32>
-Field_12_0_7_67227_020<32>
-Field_12_0_7_67227_021<32>[3]
-Field_12_0_7_67227_022<u32>[3]
-Field_12_0_7_67227_023<32>[2]
+QuestTitle_lang
+BulletText_lang
+UniqueBitFlag<32>
+ConditionID<u32>
+FiltActiveQuest<u32>
+FiltClasses<16>
+FiltCompletedQuestLogic<u32>
+FiltMaxFactionID<u32>
+FiltMaxFactionValue<u32>
+FiltMinFactionID<u32>
+FiltMinFactionValue<u32>
+FiltMinSkillID<u32>
+FiltMinSkillValue<u32>
+FiltNonActiveQuest<u32>
+BreadCrumbID<u32>
+StartItem<32>
+WorldStateExpressionID<32>
+QuestInfoID<u32>
+ContentTuningID<32>
+CovenantID<32>
+Field_9_0_2_36206_022<32>
+Flags<32>[3]
+FiltCompletedQuest<u32>[3]
+FiltRaceMasks<32>[2]
