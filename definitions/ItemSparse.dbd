@@ -83,6 +83,73 @@ int<Curve::ID> ItemLevelOffsetCurveID?
 int ItemLevelOffsetItemLevel? // same purpose as ItemScalingConfig::ItemLevel (curve parameter for ItemLevelOffsetCurveID)
 int<ItemSquishEra::ID> ItemSquishEraID?
 int AllowableRaces?
+locstring Field_12_0_7_67227_000_lang?
+locstring Field_12_0_7_67227_001_lang?
+locstring Field_12_0_7_67227_002_lang?
+locstring Field_12_0_7_67227_003_lang?
+locstring Field_12_0_7_67227_004_lang?
+int Field_12_0_7_67227_005?
+float Field_12_0_7_67227_006?
+int Field_12_0_7_67227_007?
+int Field_12_0_7_67227_008?
+float Field_12_0_7_67227_009?
+int Field_12_0_7_67227_010?
+int Field_12_0_7_67227_011?
+int Field_12_0_7_67227_012?
+float Field_12_0_7_67227_013?
+float Field_12_0_7_67227_014?
+int Field_12_0_7_67227_015?
+int Field_12_0_7_67227_016?
+int Field_12_0_7_67227_017?
+int Field_12_0_7_67227_018?
+int Field_12_0_7_67227_019?
+int Field_12_0_7_67227_020?
+int Field_12_0_7_67227_021?
+int Field_12_0_7_67227_022?
+int Field_12_0_7_67227_023?
+int Field_12_0_7_67227_024?
+float Field_12_0_7_67227_025?
+float Field_12_0_7_67227_026?
+int Field_12_0_7_67227_027?
+int Field_12_0_7_67227_028?
+int Field_12_0_7_67227_029?
+int Field_12_0_7_67227_030?
+int Field_12_0_7_67227_031?
+int Field_12_0_7_67227_032?
+int Field_12_0_7_67227_033?
+int Field_12_0_7_67227_034?
+int Field_12_0_7_67227_035?
+int Field_12_0_7_67227_036?
+int Field_12_0_7_67227_037?
+int Field_12_0_7_67227_038?
+int Field_12_0_7_67227_039?
+int Field_12_0_7_67227_040?
+int Field_12_0_7_67227_041?
+int Field_12_0_7_67227_042?
+int Field_12_0_7_67227_043?
+int Field_12_0_7_67227_044?
+int Field_12_0_7_67227_045?
+int Field_12_0_7_67227_046?
+int Field_12_0_7_67227_047?
+int Field_12_0_7_67227_048?
+int Field_12_0_7_67227_049?
+int Field_12_0_7_67227_050?
+int Field_12_0_7_67227_051?
+int Field_12_0_7_67227_052?
+int Field_12_0_7_67227_053?
+int Field_12_0_7_67227_054?
+int Field_12_0_7_67227_055?
+int Field_12_0_7_67227_056?
+int Field_12_0_7_67227_057?
+int Field_12_0_7_67227_058?
+int Field_12_0_7_67227_059?
+int Field_12_0_7_67227_060?
+int Field_12_0_7_67227_061?
+int Field_12_0_7_67227_062?
+int Field_12_0_7_67227_063?
+int Field_12_0_7_67227_064?
+int Field_12_0_7_67227_065?
+int Field_12_0_7_67227_066?
 
 LAYOUT 5272360F
 BUILD 1.13.0.28211
@@ -2681,3 +2748,75 @@ RequiredPVPRank<8>
 RequiredLevel<8>
 InventoryType<8>
 OverallQualityID<8>
+
+LAYOUT 1C17D17F
+BUILD 12.0.7.67227
+COMMENT table is sparse
+$noninline,id$ID<32>
+Field_12_0_7_67227_000_lang
+Field_12_0_7_67227_001_lang
+Field_12_0_7_67227_002_lang
+Field_12_0_7_67227_003_lang
+Field_12_0_7_67227_004_lang
+Field_12_0_7_67227_005<32>
+Field_12_0_7_67227_006
+Field_12_0_7_67227_007<32>
+Field_12_0_7_67227_008<u32>
+Field_12_0_7_67227_009
+Field_12_0_7_67227_010<u32>
+Field_12_0_7_67227_011<32>
+Field_12_0_7_67227_012<32>
+Field_12_0_7_67227_013
+Field_12_0_7_67227_014[10]
+Field_12_0_7_67227_015<32>[10]
+Field_12_0_7_67227_016<32>[10]
+Field_12_0_7_67227_017<32>
+Field_12_0_7_67227_018<32>
+Field_12_0_7_67227_019<32>
+Field_12_0_7_67227_020<u32>
+Field_12_0_7_67227_021<32>[2]
+Field_12_0_7_67227_022<u32>
+Field_12_0_7_67227_023<u32>
+Field_12_0_7_67227_024<u32>
+Field_12_0_7_67227_025
+Field_12_0_7_67227_026
+Field_12_0_7_67227_027<32>[5]
+Field_12_0_7_67227_028<32>
+Field_12_0_7_67227_029<32>
+Field_12_0_7_67227_030<32>
+Field_12_0_7_67227_031<32>
+Field_12_0_7_67227_032<32>
+Field_12_0_7_67227_033<32>
+Field_12_0_7_67227_034<32>
+Field_12_0_7_67227_035<u16>
+Field_12_0_7_67227_036<u16>
+Field_12_0_7_67227_037<u16>
+Field_12_0_7_67227_038<u16>
+Field_12_0_7_67227_039<u16>
+Field_12_0_7_67227_040<u16>
+Field_12_0_7_67227_041<u16>
+Field_12_0_7_67227_042<u16>[2]
+Field_12_0_7_67227_043<u16>
+Field_12_0_7_67227_044<u16>
+Field_12_0_7_67227_045<u16>
+Field_12_0_7_67227_046<u16>
+Field_12_0_7_67227_047<u16>
+Field_12_0_7_67227_048<u16>
+Field_12_0_7_67227_049<u16>
+Field_12_0_7_67227_050<u16>
+Field_12_0_7_67227_051<16>
+Field_12_0_7_67227_052<u8>
+Field_12_0_7_67227_053<u8>
+Field_12_0_7_67227_054<u8>
+Field_12_0_7_67227_055<u8>[3]
+Field_12_0_7_67227_056<u8>
+Field_12_0_7_67227_057<u8>
+Field_12_0_7_67227_058<u8>
+Field_12_0_7_67227_059<u8>
+Field_12_0_7_67227_060<u8>
+Field_12_0_7_67227_061<u8>
+Field_12_0_7_67227_062<u8>
+Field_12_0_7_67227_063<8>
+Field_12_0_7_67227_064<8>
+Field_12_0_7_67227_065<8>
+Field_12_0_7_67227_066<8>

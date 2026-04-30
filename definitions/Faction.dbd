@@ -21,6 +21,26 @@ int Field_12_0_5_66330_017? // These are split up racemasks, todo: figure out go
 int Field_12_0_5_66330_018? // These are split up racemasks, todo: figure out good names
 int Field_12_0_5_66330_019? // These are split up racemasks, todo: figure out good names
 int Field_12_0_5_66330_020? // These are split up racemasks, todo: figure out good names
+locstring Field_12_0_7_67227_000_lang?
+locstring Field_12_0_7_67227_001_lang?
+int Field_12_0_7_67227_002?
+int Field_12_0_7_67227_003?
+int Field_12_0_7_67227_004?
+int Field_12_0_7_67227_005?
+int Field_12_0_7_67227_006?
+int Field_12_0_7_67227_007?
+int Field_12_0_7_67227_008?
+int Field_12_0_7_67227_009?
+int Field_12_0_7_67227_010?
+int Field_12_0_7_67227_011?
+int Field_12_0_7_67227_012?
+int Field_12_0_7_67227_013?
+float Field_12_0_7_67227_014?
+int Field_12_0_7_67227_015?
+int Field_12_0_7_67227_016?
+int Field_12_0_7_67227_017?
+int Field_12_0_7_67227_018?
+int Field_12_0_7_67227_019?
 
 BUILD 0.5.3.3368
 BUILD 0.5.3.3368-0.9.1.3810
@@ -566,3 +586,27 @@ Field_12_0_5_66330_017<32>[2]
 Field_12_0_5_66330_018<32>[2]
 Field_12_0_5_66330_019<32>[2]
 Field_12_0_5_66330_020<32>[2]
+
+LAYOUT E7553DC7
+BUILD 12.0.7.67227
+$noninline,id$ID<32>
+Field_12_0_7_67227_000_lang
+Field_12_0_7_67227_001_lang
+Field_12_0_7_67227_002<16>
+Field_12_0_7_67227_003<u16>
+Field_12_0_7_67227_004<u8>
+Field_12_0_7_67227_005<u32>
+Field_12_0_7_67227_006<32>
+Field_12_0_7_67227_007<u16>
+Field_12_0_7_67227_008<32>
+Field_12_0_7_67227_009<32>
+Field_12_0_7_67227_010<16>[4]
+Field_12_0_7_67227_011<u16>[4]
+Field_12_0_7_67227_012<32>[4]
+Field_12_0_7_67227_013<32>[4]
+Field_12_0_7_67227_014[2]
+Field_12_0_7_67227_015<u8>[2]
+Field_12_0_7_67227_016<32>[2]
+Field_12_0_7_67227_017<32>[2]
+Field_12_0_7_67227_018<32>[2]
+Field_12_0_7_67227_019<32>[2]

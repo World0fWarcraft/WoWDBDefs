@@ -9,16 +9,6 @@ locstring Description_lang
 int<FileData::ID> SpellIconFileID
 int RaceMasks?
 
-LAYOUT BE7036C6
-BUILD 5.5.4.67090, 5.5.4.67177
-$noninline,id$ID<32>
-Name_lang
-Description_lang
-Flags<u8>
-ClassMask<32>
-SpellIconFileID<32>
-RaceMask<32>[2]
-
 BUILD 6.0.1.18179
 BUILD 6.0.1.18125-6.2.0.20008
 BUILD 5.0.1.15464-5.4.8.18414
@@ -162,3 +152,14 @@ Flags<u8>
 ClassMask<32>
 SpellIconFileID<32>
 RaceMasks<32>[2]
+
+LAYOUT BE7036C6
+BUILD 12.0.7.67227
+BUILD 5.5.4.67090, 5.5.4.67177
+$noninline,id$ID<32>
+Name_lang
+Description_lang
+Flags<u8>
+ClassMask<32>
+SpellIconFileID<32>
+RaceMask<32>[2]
