@@ -603,7 +603,7 @@ SkillupSkillLineID<16>
 RaceMasks<32>[2]
 
 LAYOUT F98AA48E
-BUILD 12.0.7.67227
+BUILD 12.0.7.67227, 12.0.7.67344
 AbilityVerb_lang
 AbilityAllVerb_lang
 $id$ID<32>

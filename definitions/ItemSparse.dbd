@@ -2683,7 +2683,7 @@ InventoryType<8>
 OverallQualityID<8>
 
 LAYOUT 1C17D17F
-BUILD 12.0.7.67227
+BUILD 12.0.7.67227, 12.0.7.67344
 COMMENT table is sparse
 $noninline,id$ID<32>
 Description_lang
